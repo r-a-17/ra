@@ -5,7 +5,7 @@ sudo apt install python3-venv
 pip3 install librosa
 pip3 install matplotlib
 pip3 install h5py==2.10.0
-pip3 install tensorflow==1.15
+%tensorflow_version 1.x
 sudo apt-get install -y python3-pyaudio
 pip3 install keras==2.3.1
 pip3 install torch==1.5.0
